@@ -40,7 +40,7 @@
         }
 
         else {
-            return errorNombre.innerHTML = "No válido";
+            errorNombre.innerHTML = "No válido";
         }
     }
 
@@ -52,7 +52,7 @@
         }
         
         else{
-            return errorFecha.innerHTML = "No Válido";
+            errorFecha.innerHTML = "No Válido";
         }
     }
 
@@ -69,13 +69,13 @@
             }
             
             else{
-                return errorDni.innerHTML = "Letra DNI inválida";
+                errorDni.innerHTML = "Letra DNI inválida";
             }
             
         }
         
         else{
-            return errorDni.innerHTML = "Formato DNI inválido";
+            errorDni.innerHTML = "Formato DNI inválido";
         }
     }
 
