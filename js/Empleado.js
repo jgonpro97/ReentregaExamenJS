@@ -35,7 +35,8 @@
     }
 
     Empleado.prototype.crearNuevaVentana = function () {
-        let ventana = window.open();
+        let ventana = open("", "Empleado", "width=600, height=400");
+
         let contenido = `<!DOCTYPE html>
                         <html lang="en">
                         

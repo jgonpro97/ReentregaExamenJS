@@ -15,7 +15,7 @@
     }
 
     let crearInforma = function () {
-        let ventana = open("", "De todo un poco", "");
+        let ventana = open("", "De todo un poco", "width=600, height=400");
 
         let contenido = `<!DOCTYPE html>
                          <html lang="en">
@@ -42,7 +42,7 @@
     }
 
     let crearFormulario = function () {
-        let ventana = open("", "Formulario", "");
+      let ventana = open("", "Nuevo empleado", "width=600, height=400");
 
         let contenido = `<!DOCTYPE html>
                          <html lang="en">
